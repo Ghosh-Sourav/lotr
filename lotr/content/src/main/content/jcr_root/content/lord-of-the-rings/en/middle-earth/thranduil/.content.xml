@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-03-11T16:20:44.811+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-03-25T17:21:42.962+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[LOTR:Elves,LOTR:HobbitTrilogy]"
+        cq:template="/apps/lotr/templates/legend"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Thranduil"
+        jcr:uuid="1f1bd6b6-9221-4c36-b7c4-f648344a2e9b"
+        sling:resourceType="lotr/components/legendComponent">
+        <image
+            jcr:lastModified="{Date}2015-03-11T16:20:44.805+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

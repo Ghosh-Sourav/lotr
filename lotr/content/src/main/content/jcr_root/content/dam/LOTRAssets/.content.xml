@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-03-25T14:12:56.395+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="LOTR Assets">
+        <folderThumbnail/>
+    </jcr:content>
+    <LOTR-LOGO.jpeg/>
+    <foot.png/>
+    <head.jpg/>
+    <bg.jpg/>
+    <LOTR-head.jpg/>
+    <fonts/>
+    <loading.gif/>
+</jcr:root>

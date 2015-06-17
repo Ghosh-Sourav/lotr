@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-02-17T16:11:11.909+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-03-25T17:21:39.850+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[marketing:interest]"
+        cq:template="/apps/lotr/templates/lotrTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Lord of the Rings"
+        jcr:uuid="6eab0cef-d33f-4db5-8b2f-2f22497c379c"
+        sling:resourceType="lotr/components/lotrComponent">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <en/>
+    <BlackSpeech/>
+</jcr:root>

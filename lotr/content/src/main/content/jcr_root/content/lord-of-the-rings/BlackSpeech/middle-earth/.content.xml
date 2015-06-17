@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-02-18T18:11:37.689+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-03-25T17:21:45.338+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2015-02-18T18:11:37.693+05:30"
+        cq:lastRolledoutBy="admin"
+        cq:template="/apps/lotr/templates/legend"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Middle Earth"
+        jcr:uuid="f7f08321-e4cf-45ea-9a75-928722c177b2"
+        sling:resourceType="lotr/components/legendComponent"
+        navTitle="Middle Earth">
+        <image
+            cq:lastRolledout="{Date}2015-02-18T18:11:37.692+05:30"
+            cq:lastRolledoutBy="admin"
+            jcr:lastModified="{Date}2015-02-18T18:11:37.640+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+    <bilbo-baggins/>
+    <gandalf-the-white--formerly-gandalf-the-grey-/>
+    <legolas/>
+    <aragorn/>
+    <gimli/>
+    <frodo-baggins/>
+    <samwise-gamgee/>
+    <smaug/>
+    <sauron/>
+    <boromir/>
+    <faramir/>
+    <meriadoc-brandybuck--merry-/>
+    <peregrin-took--pippin-/>
+    <gollum--smeagol-/>
+    <arwen/>
+    <saruman-the-white/>
+    <elrond/>
+    <lady-galadriel/>
+    <thranduil/>
+    <thorin-ii-oakenshield/>
+    <bard/>
+    <azog-the-defiler/>
+    <balrog/>
+    <eowyn/>
+    <dwalin/>
+    <bolg/>
+    <bombur/>
+    <tauriel/>
+    <fili/>
+    <kili/>
+    <bofur/>
+    <radagast-the-brown/>
+    <beta-baggins/>
+    <alpha-baggins/>
+    <delta-baggins/>
+</jcr:root>

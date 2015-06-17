@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+
+    <filter root="/apps/lotr"/>
+    <filter root="/etc/clientlibs/lotr"/>
+    <filter root="/content/projects/20150216/lordoftherings"/>
+    
+    <filter root="/content/lord-of-the-rings"/>
+    <filter root="/etc/tags/LOTR"/>
+    <filter root="/content/dam/projects/lordoftherings"/>
+    <filter root="/content/dam/LOTRAssets"/>      
+    
+    
+</workspaceFilter>

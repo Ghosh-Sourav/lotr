@@ -1,0 +1,7 @@
+Export-Package: com.tcs.lotr
+Private-Package: com.tcs.lotr.impl
+Bundle-Name: Sample project lotr
+Bundle-Description: Contains the lotr sample bundle
+Bundle-SymbolicName: com.tcs.lotr
+Bundle-Version: 1.0-SNAPSHOT
+Bundle-Activator: com.tcs.lotr.impl.Activator

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-04-02T17:54:20.604+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-03-25T17:21:47.487+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2015-04-02T17:54:20.609+05:30"
+        cq:lastRolledoutBy="admin"
+        cq:template="/apps/lotr/templates/legend"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Alpha Baggins"
+        jcr:uuid="0274efb3-9e2d-4bd8-b952-525f23056bf1"
+        sling:resourceType="lotr/components/legendComponent">
+        <image
+            cq:lastRolledout="{Date}2015-04-02T17:54:20.608+05:30"
+            cq:lastRolledoutBy="admin"
+            jcr:lastModified="{Date}2015-04-02T17:54:20.601+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

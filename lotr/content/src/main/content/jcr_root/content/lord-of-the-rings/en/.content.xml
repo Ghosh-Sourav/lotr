@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-02-16T16:25:23.522+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-03-25T17:21:40.290+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/lotr/templates/lotrTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        jcr:uuid="dcaffeb1-c7c7-4185-9f32-daeda0b8093a"
+        sling:resourceType="lotr/components/lotrComponent"
+        navTitle="English"/>
+    <middle-earth/>
+    <search-legends/>
+</jcr:root>

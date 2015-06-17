@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-03-24T14:15:09.276+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        dam:s7damImageCopyPath="C:\\Users\\840001\\AppData\\Local\\Temp\\scene71707602869778358251.tmp"
+        jcr:lastModified="{Date}2015-04-02T17:54:33.947+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:ColorSpace="{Long}-1"
+            dam:ExifOffset="{Long}152"
+            dam:extracted="{Date}2015-02-16T16:15:57.088+05:30"
+            dam:Fileformat="JPEG"
+            dam:JpgFromRawLength="{Long}10246"
+            dam:JpgFromRawStart="{Long}288"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}4.19444465637207"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}4.861111164093018"
+            dam:Progressive="no"
+            dam:sha1="abc1aa438efdeb7371f4cd0337bc8e5a2330b764"
+            dam:size="{Long}38240"
+            dam:writebackEnable="False"
+            dc:format="image/jpeg"
+            exif:ExifImageLength="{Long}489"
+            exif:ExifImageWidth="{Long}566"
+            exif:PixelXDimension="{Long}72"
+            exif:PixelYDimension="{Long}72"
+            jcr:primaryType="nt:unstructured"
+            tiff:Compression="{Long}6"
+            tiff:ImageLength="{Long}302"
+            tiff:ImageWidth="{Long}350"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="72"
+            tiff:YResolution="72"
+            xmp:CreatorTool="Paint.NET v3.5.4"
+            xmp:ModifyDate="{Date}2008-07-31T13:02:07.000+05:30"
+            writebackEnable="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

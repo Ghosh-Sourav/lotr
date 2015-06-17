@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        dam:s7damImageCopyPath="C:\\Users\\840001\\AppData\\Local\\Temp\\scene74364429799739006128.tmp"
+        jcr:lastModified="{Date}2015-04-02T17:54:30.008+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2015-03-24T14:33:15.375+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}96"
+            dam:Physicalheightininches="{Decimal}6.635416507720947"
+            dam:Physicalwidthindpi="{Long}96"
+            dam:Physicalwidthininches="{Decimal}13.09375"
+            dam:Progressive="no"
+            dam:sha1="bb5fd42ee9ff5aaaea45b0523ec29d37636dd7e5"
+            dam:size="{Long}78879"
+            dam:writebackEnable="False"
+            dc:format="image/jpeg"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}637"
+            tiff:ImageWidth="{Long}1257"
+            writebackEnable="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

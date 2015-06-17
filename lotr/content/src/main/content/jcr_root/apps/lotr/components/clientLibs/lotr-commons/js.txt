@@ -1,0 +1,5 @@
+#base=js
+scripts.js
+loading.js
+wiki.js
+tags.js

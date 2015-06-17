@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <Search_x0020_Parameters
+                jcr:primaryType="cq:Panel"
+                title="Customise parameters for search results presentation (Page refresh required for changes to take effect)">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <Search_x0020_Parameters
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter search path"
+                        name="./SearchField"
+                        rootPath="/content"
+                        xtype="pathfield"/>
+                    <Offset
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Offset"
+                        name="./Offset"
+                        textfield="Enter Offset"
+                        xtype="numberfield"/>
+                    <Limit
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Limit"
+                        name="./Limit"
+                        xtype="numberfield"/>
+                </items>
+            </Search_x0020_Parameters>
+        </items>
+    </items>
+</jcr:root>

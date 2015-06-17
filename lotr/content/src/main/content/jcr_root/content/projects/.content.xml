@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:OrderedFolder"
+    sling:resourceType="cq/projects">
+    <jcr:content/>
+    <rep:policy/>
+    <_x0032_0150116/>
+    <_x0032_0150216/>
+</jcr:root>

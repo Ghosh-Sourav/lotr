@@ -1,0 +1,5 @@
+#base=js
+bootstrap.js
+bootstrap.min.js
+bootstrap-switch.js
+bootstrap-switch.min.js

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:lastModified="{Date}2015-02-16T15:37:12.937+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:mixinTypes="[mix:created,mix:lastModified,rep:AccessControllable]"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="cq/gui/components/projects/admin/card/projectcard"
+    role_editor="projects-lordoftherings-editor"
+    role_observer="projects-lordoftherings"
+    role_owner="projects-lordoftherings-owner">
+    <jcr:content
+        cq:template="/libs/cq/core/content/projects/templates/default"
+        jcr:description="This is a demo project, to test and demonstrate various features of AEM. The purpose of this is to host and manage content related to &quot;The Lord of The Rings&quot; series of books and movies, and perform various operations like search, tags, etc. using AEM, OSGI, QueryBuilder, etc."
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Lord of the Rings"
+        sling:resourceType="cq/gui/components/projects/admin/card/projectcontent"
+        active="{Boolean}true"
+        coverUrl="/content/dam/projects/lordoftherings/cover"
+        damFolderPath="/content/dam/projects/lordoftherings"
+        detailsHref="/projects/details.html"
+        project.dueDate="{Date}2015-12-31T23:59:00.000+05:30"
+        tasks.folder="tasks"
+        work.folder="work">
+        <links jcr:primaryType="nt:unstructured"/>
+        <dashboard jcr:primaryType="nt:unstructured">
+            <gadgets
+                jcr:lastModified="{Date}2015-03-24T14:36:46.527+05:30"
+                jcr:primaryType="nt:unstructured">
+                <team
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Team"
+                    sling:resourceType="cq/gui/components/projects/admin/pod/teampod"
+                    cardWeight="60"/>
+                <asset
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Assets"
+                    sling:resourceType="cq/gui/components/projects/admin/pod/assetpod"
+                    assetPath="/content/dam/projects/lordoftherings"
+                    cardWeight="90"/>
+                <work
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Workflows"
+                    sling:resourceType="cq/gui/components/projects/admin/pod/workpod"
+                    cardWeight="80"/>
+                <experiences
+                    jcr:lastModified="{Date}2015-02-16T16:15:56.894+05:30"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Experiences"
+                    sling:resourceType="cq/gui/components/projects/admin/pod/channelpod"
+                    cardWeight="90">
+                    <main_site
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Main Site"
+                        sling:resourceType="cq/gui/components/projects/admin/card/linkcard"
+                        class="card-page"
+                        consolePath="/sites.html"
+                        coverUrl="/content/dam/projects/lordoftherings/main_site"
+                        name="websites"
+                        projectPath="/content/projects/20150216/lordoftherings"
+                        suffix="/content/lord-of-the-rings"/>
+                </experiences>
+                <projectinfo
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Project Info"
+                    sling:resourceType="cq/gui/components/projects/admin/pod/projectinfopod"
+                    cardWeight="100"/>
+                <asset0
+                    jcr:description="Assets Tile"
+                    jcr:lastModified="{Date}2015-03-24T14:16:50.675+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[mix:lastModified]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Assets"
+                    sling:resourceType="cq/gui/components/projects/admin/pod/assetpod"
+                    assetPath="/content/dam/LOTRAssets"
+                    cardWeight="90"/>
+                <externallinks
+                    jcr:description="Links Tile"
+                    jcr:lastModified="{Date}2015-03-24T14:27:14.640+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[mix:lastModified]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Links"
+                    sling:resourceType="cq/gui/components/projects/admin/pod/externallinkspod"
+                    cardWeight="90">
+                    <search_legends
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Search Legends"
+                        sling:resourceType="cq/gui/components/projects/admin/card/linkcard"
+                        class="card-article"
+                        consolePath="/content/lord-of-the-rings/en/search-legends.html"
+                        coverUrl="/content/dam/projects/lordoftherings/search_legends"
+                        linkParent="/content/projects/20150216/lordoftherings/_jcr_content/dashboard/gadgets/externallinks"
+                        name="External"
+                        target="_blank"/>
+                </externallinks>
+                <taskslink
+                    jcr:description="Tasks Status Tile"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Tasks"
+                    sling:resourceType="cq/gui/components/projects/admin/pod/taskpod"
+                    allow="1"
+                    cardWeight="70"
+                    type="tasks"/>
+            </gadgets>
+        </dashboard>
+        <projectThumbnail/>
+        <tasks
+            jcr:primaryType="nt:unstructured"
+            activeTasks="{Long}1"
+            overdueTasks="{Long}0"
+            totalTasks="{Long}1">
+            <_x0032_015-03-26/>
+        </tasks>
+        <work jcr:primaryType="nt:unstructured">
+            <test
+                jcr:primaryType="nt:unstructured"
+                model.id="/etc/workflow/models/projects/approval_workflow/jcr:content/model"
+                workflow.id="/etc/workflow/instances/2015-03-26/model_62757347590630"/>
+        </work>
+    </jcr:content>
+    <rep:policy/>
+</jcr:root>
