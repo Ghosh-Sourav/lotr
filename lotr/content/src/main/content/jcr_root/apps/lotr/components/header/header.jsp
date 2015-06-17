@@ -11,7 +11,7 @@
 	// TODO add you code here
 %>
 <title>
-	LOTR | <%=currentPage.getTitle()%>
+	LOTR | <%=currentPage.getTitle()%> | LOTR
 </title>
 <cq:includeClientLib categories="lotrAll"/>
 
